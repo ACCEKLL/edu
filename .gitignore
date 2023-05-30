@@ -4,7 +4,7 @@
 yarn.lock
 .idea
 package-lock.json
-vue.config.js
+#vue.config.js
 docs/.vuepress/dist
 **/dist
 .classpath
