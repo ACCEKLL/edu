@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.demo.UserMapper1">
+
+    <insert id="insertUser">
+        insert into userinfo (loginName, password, userName, userCode, role)
+        values (#{loginName}, #{password}, #{userName}, #{userCode}, #{role})
+    </insert>
+    <update id="updateUser">
+        update userinfo
+        <set>
+            loginName = #{loginName},
+            password = #{password},
+            userName = #{userName},
+            userCode = #{userCode},
+            role = #{role}
+        </set>
+        where id = #{id}
+    </update>
+
+</mapper>

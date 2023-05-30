@@ -1,0 +1,16 @@
+*.iml
+**/target
+**/node_modules
+yarn.lock
+.idea
+package-lock.json
+vue.config.js
+docs/.vuepress/dist
+**/dist
+.classpath
+.factorypath
+.vscode
+.settings
+.project
+**/.history
+**/.hbuilderx

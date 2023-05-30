@@ -1,0 +1,17 @@
+server:
+  port: 8088
+spring:
+  datasource:
+
+    url: jdbc:mysql://localhost:3306/edu?useSSL=false
+    username: root
+    password: 1234
+
+#    url: jdbc:mysql://localhost:3306/study?useSSL=false
+#    username: root
+#    password: 123asdQWE,.
+
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+  type-aliases-package: com.example.pojo
