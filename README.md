@@ -1,2 +1,2 @@
 # edu
-edu made by zkl
+springboot + vue2
